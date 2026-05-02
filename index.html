@@ -175,6 +175,30 @@
       transform: translateY(-3px);
     }
 
+    /* ─── Source link ─── */
+    .source-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--blue);
+      text-decoration: none;
+      margin-top: 0.75rem;
+      padding: 0.3rem 0.75rem;
+      border: 1px solid rgba(0,61,122,0.25);
+      border-radius: 9999px;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    .source-link:hover {
+      background: var(--blue);
+      color: white;
+      border-color: var(--blue);
+    }
+
     /* ─── Nav ─── */
     nav a {
       font-family: 'DM Sans', sans-serif;
@@ -578,10 +602,14 @@
         <div class="source-card p-6 rounded-r-xl" data-aos="fade-up" data-aos-delay="0">
           <span class="section-label">Primary Source · Treaty</span>
           <h3 class="font-display text-lg font-bold mt-2 mb-1" style="color: var(--ink);">Treaty of Boundaries, 1859</h3>
-          <p class="font-sans text-xs text-gray-400 mb-3">Britain & Guatemala · Convention of April 30, 1859</p>
+          <p class="font-sans text-xs text-gray-400 mb-3">Britain &amp; Guatemala · Convention of April 30, 1859</p>
           <p class="font-body text-sm text-gray-600 leading-relaxed">
             The foundational document of the dispute. This treaty defined the boundary between British Honduras and Guatemala. Article 7, which obligated Britain to help build a cart road, became the crux of Guatemala's later argument that the treaty was void due to nonperformance.
           </p>
+          <a href="http://www.belizereferendum.gov.bz/files/Treaty-1859%20-%20Text.pdf" target="_blank" rel="noopener noreferrer" class="source-link">
+            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            View Treaty Text (PDF)
+          </a>
         </div>
 
         <!-- Source 2 -->
@@ -592,16 +620,24 @@
           <p class="font-body text-sm text-gray-600 leading-relaxed">
             A seminal text written from a Belizean perspective. Shoman provides a comprehensive account of colonial history, the independence movement, and the territorial dispute, offering essential context for understanding Belizean national identity in the face of external claims.
           </p>
+          <a href="https://openlibrary.org/works/OL2073598W/13_chapters_of_a_history_of_Belize" target="_blank" rel="noopener noreferrer" class="source-link">
+            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            View on Open Library
+          </a>
         </div>
 
         <!-- Source 3 -->
         <div class="source-card p-6 rounded-r-xl" data-aos="fade-up" data-aos-delay="160">
-          <span class="section-label">Secondary Source · Journal</span>
+          <span class="section-label">Secondary Source · Book</span>
           <h3 class="font-display text-lg font-bold mt-2 mb-1" style="color: var(--ink);">Dobson, Narda. <em>A History of Belize</em></h3>
           <p class="font-sans text-xs text-gray-400 mb-3">Longman Caribbean, London, 1973</p>
           <p class="font-body text-sm text-gray-600 leading-relaxed">
             One of the earliest comprehensive histories of Belize written for a Caribbean audience. Dobson's work contextualises the 1859 treaty within broader colonial power dynamics, demonstrating how European rivalries directly shaped the present day dispute.
           </p>
+          <a href="https://archive.org/details/historyofbelize0000dobs" target="_blank" rel="noopener noreferrer" class="source-link">
+            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            View on Internet Archive
+          </a>
         </div>
 
         <!-- Source 4 -->
@@ -612,6 +648,10 @@
           <p class="font-body text-sm text-gray-600 leading-relaxed">
             The legal framework agreed upon by Belize and Guatemala to submit their dispute to the ICJ. This document outlines the precise questions the Court is asked to resolve, and the procedural conditions including public referendums required before submission could occur.
           </p>
+          <a href="https://www.icj-cij.org/case/177" target="_blank" rel="noopener noreferrer" class="source-link">
+            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            View ICJ Case Page
+          </a>
         </div>
 
         <!-- Source 5 -->
@@ -622,16 +662,24 @@
           <p class="font-body text-sm text-gray-600 leading-relaxed">
             A series of annual OAS reports documenting confidence building measures, border incidents, and negotiation progress between Belize and Guatemala. Invaluable for understanding the diplomatic dimension of the dispute over nearly two decades of facilitated dialogue.
           </p>
+          <a href="http://www.oas.org/sap/peacefund/belizeandguatemala/content2.html" target="_blank" rel="noopener noreferrer" class="source-link">
+            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            View OAS Process Page
+          </a>
         </div>
 
         <!-- Source 6 -->
         <div class="source-card p-6 rounded-r-xl" data-aos="fade-up" data-aos-delay="400">
-          <span class="section-label">Secondary Source · Online</span>
+          <span class="section-label">Secondary Source · Book</span>
           <h3 class="font-display text-lg font-bold mt-2 mb-1" style="color: var(--ink);">Bolland, O. Nigel. <em>Colonialism and Resistance in Belize</em></h3>
           <p class="font-sans text-xs text-gray-400 mb-3">SPEAR, Belize City, 1988</p>
           <p class="font-body text-sm text-gray-600 leading-relaxed">
             Bolland examines the social and political resistance of the Belizean people against both colonial rule and Guatemalan territorial pressure. This work is essential for understanding how ordinary Belizeans experienced and pushed back against the existential threat of territorial absorption.
           </p>
+          <a href="https://openlibrary.org/works/OL2169728W/Colonialism_and_resistance_in_Belize" target="_blank" rel="noopener noreferrer" class="source-link">
+            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            View on Open Library
+          </a>
         </div>
 
       </div>
